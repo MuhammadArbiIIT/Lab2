@@ -75,11 +75,10 @@
 
 #grid-section1 .grid {
 	display: grid;
-	display: flex;
+	grid-template-columns: repeat(4,1fr);
 	justify-content: space-between;
-	column-gap: 20px;
-	row-gap: 20px;
-	height: 100px;
+	gap: 20px;
+	grid-auto-rows: 100px;
 }
 
 /* end Grid Part 1 */
