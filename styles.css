@@ -104,11 +104,13 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
-	
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
 #grid-section3 .box1 {
-
+	
 }
 
 #grid-section3 .box2 {
