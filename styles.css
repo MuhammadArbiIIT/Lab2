@@ -116,11 +116,12 @@
 }
 
 #grid-section3 .box2 {
-
+	position: relative;
+	grid-area: 2/2/2/3;
 }
 
 #grid-section3 .box3 {
-
+	
 }
 
 #grid-section3 .box4 {
