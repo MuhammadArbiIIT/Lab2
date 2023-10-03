@@ -74,7 +74,12 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 20px;
+	row-gap: 20px;
+	height: 100px;
 }
 
 /* end Grid Part 1 */
