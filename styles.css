@@ -87,10 +87,13 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-
+	position: relative;
+	grid-area: 1/3;
 }
 
 #grid-section2 .gridboxred {
+	position: relative;
+	grid-area: 2/1;
 
 }
 
