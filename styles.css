@@ -54,10 +54,12 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	margin: 0px; 
+	padding: 80px 249px;
 }
 
 #flex-section3 .tags ul {
+
 
 }
 
@@ -89,7 +91,7 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
-
+	
 }
 
 #grid-section3 .box1 {
