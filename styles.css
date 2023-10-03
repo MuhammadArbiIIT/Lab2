@@ -1,7 +1,13 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 50px;
+	justify-content: space-between;
+	overflow: hidden;
+	background-color: #fff;
+	display: flex;
 }
 
 /* end Flexbox Part 1 */
