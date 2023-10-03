@@ -16,11 +16,20 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	column-count: 3;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #flex-section2 li {
-
+	flex: 1; 
+	margin: 0px; 
+	border: 5px solid #525252; 
+	padding: 5px;
+	box-sizing: border-box;
 }
 
 #flex-section2 .item1 {
@@ -28,11 +37,15 @@
 }
 
 #flex-section2 .item2 {
-
+	float:left; 
+	position: relative; 
+	left: 225px;
 }
 
 #flex-section2 .item3 {
-
+	float:left; 
+	position: relative; 
+	right: 231px;
 }
 
 /* end Flexbox Part 2 */
